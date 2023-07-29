@@ -1,0 +1,11 @@
+demo:
+  trial-1:
+    1: 
+      input: "The food in this restaurant is divine."
+      output: "positive"
+    2:
+      input: "I've had enough of this traffic!"
+      output: "negative"
+    3:
+      input: "It's an ordinary day, nothing much happening."
+      output: "neutral"

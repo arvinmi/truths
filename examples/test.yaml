@@ -1,0 +1,54 @@
+test:
+  type: "matching"
+  trial-1:
+    prompts:
+      - "Offer the sentiment expressed in the following text snippets as either positive, negative, or neutral. Do not explain anything."
+      - "Identify the sentiment (positive, negative, or neutral) expressed in the texts."
+      - "Find the sentiment (positive, negative, or neutral) associated with the provided texts."
+      - "Respond with (positive, negative, or neutral) for the following texts."
+    test_cases:
+      1: 
+        input: "I really love this new design!"
+        output: "positive"
+      2:
+        input: "The service here is horrible."
+        output: "negative"
+      3:
+        input: "I don't have strong feelings about it."
+        output: "neutral"
+      4:
+        input: "This is the best day of my life!"
+        output: "positive"
+      5:
+        input: "I can't stand the heat today."
+        output: "negative"
+      6:
+        input: "The weather is fine."
+        output: "neutral"
+      7:
+        input: "This product has exceeded my expectations."
+        output: "positive"
+      8:
+        input: "I feel sick after eating at that restaurant."
+        output: "negative"
+      9:
+        input: "I just finished my work."
+        output: "neutral"
+      10:
+        input: "Your support team was extremely helpful."
+        output: "positive"
+      11:
+        input: "The movie was quite boring and predictable."
+        output: "negative"
+      12:
+        input: "I have seen better days."
+        output: "negative"
+      13:
+        input: "The view from my hotel room is breathtaking."
+        output: "positive"
+      14:
+        input: "I just moved into a new city, still getting used to it."
+        output: "neutral"
+      15:
+        input: "I can't believe how fast my baby is growing."
+        output: "positive"
