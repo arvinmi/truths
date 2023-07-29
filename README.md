@@ -15,6 +15,11 @@ With truths, you can find the best prompt for simple NLP tasks without fine-tuni
 ```
 pip install -r requirements.txt
 ```
+- Make `.env` file in the project root directory with the following variables:
+
+```
+OPENAI_KEY=your_api_key
+```
 
 Dependencies:
 
