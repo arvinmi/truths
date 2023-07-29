@@ -42,6 +42,8 @@ The output will be represented by a table with the prompts used, accuracy percen
 
 *Note the prompt token count is based on an estimated value of 4.2 characters per token.
 
+![truths](assets/truths.jpg)
+
 ## usage
 ```
 truths [-h] [--test file_path] [--demo file_path] [--dry-run] [--debug]
