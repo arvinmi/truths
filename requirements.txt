@@ -3,4 +3,4 @@ pyyaml==6.0.1
 tqdm==4.66.3
 argparse==1.4.0
 prettytable==3.8.0
-python-dotenv==1.0.0
+python-dotenv==1.2.2
